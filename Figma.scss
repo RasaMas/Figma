@@ -1,0 +1,52 @@
+*, *::before *::after {
+    box-sizing: border-box;
+}
+
+.logo-wrapper {
+    display: flex;
+    width: 150px;
+    height: 34;
+}
+
+.main-navigation {
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 28px
+}
+
+.button {
+    color: #FF3998;
+    font-family: Inter;
+    font-size: 20px;
+    font-size: normal;
+    font-weight: 400;
+    line-height: 100%;
+    border-radius: 40px;
+}
+
+.hero-box {
+    width: 620px;
+}
+
+.hero-item {
+    color: #FF3998;
+    width: 169px;
+    height: 19px;
+    padding-left: 16px;
+    padding-right: 19px;
+    font-size: inter;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.page-title {
+    color: #111;
+    font-size: 96px;
+    font-style: normal;
+    width: 620px;
+    height: 232px;
+    padding-bottom: 24px;
+    padding-left: 80px;
+    padding-right: 740px;
+}
